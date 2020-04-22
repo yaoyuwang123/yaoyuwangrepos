@@ -1,0 +1,139 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://johnnycproductions.com/wp-content/uploads/2017/08/4119660-beautiful-background-pictures.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+.topnav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color:green;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid darkolivegreen;
+}
+.topnav p
+{
+    margin-left: 1.5rem;
+    flex: 8;
+    color: white;
+}
+.navcontainer
+{
+    display: flex;
+    justify-content: flex-end;
+    flex: 2;
+
+}
+.navcontainer a
+{
+    padding: 3px;
+    
+    margin-right: 1.5em;
+   border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    
+    border: 1px solid darkturquoise;
+    
+    background-color: green;
+
+}
+
+.heroimage
+{
+    background-image: url(http://b301.photo.store.qq.com/psb?/V10wtFdq21HHQp/aBOYMApv9j.B88oPcAZCE7QwUgAAxpYjwaTPvk36izs!/b/YWsWb7PSPwAAYr7CdrOcPwAA&bo=cgK9AQAAAAABA.g!&rf=viewer_4);
+    
+    background-size: cover;
+   
+    background-repeat: no-repeat;
+    height: 700px;
+    margin-right: 1.25rem;
+    margin-left: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid green;
+    border-radius: 10px;
+    
+    
+
+}
+
+.heroimage p
+{
+    font-size: 36px;
+color: white;    
+}
+.introduce
+{
+    display:flex;
+    flex-direction: row;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+    border-radius: 10px;
+   
+    overflow-y: scroll;
+    
+    background-color: green;
+}
+.IAm
+{
+    margin-top: 1em;
+    padding: 1em;
+}
+.WhoIAm
+{
+    flex: 1;
+    text-align: center;
+    align-self: center;
+    font-size: 30px;
+    color: white;
+    padding: 1em;
+    
+}
+.IAmContainer
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-right: 1rem;
+    max-height: 306px;
+    margin-top: 1em;
+    color: lightcyan;
+    
+  
+}
+.Yaoyu
+{
+    margin-top: 1em;
+    padding: 1em;
+}
+@media screen and (min-width: 890px)
+{
+    
+.heroimage p
+{
+    font-size: 36px;
+    color: greenyellow;
+    
+}
+}
